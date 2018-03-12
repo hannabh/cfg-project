@@ -53,7 +53,8 @@ img {
 .Buttons {
   text-align: center;
   position: relative;
-  top: -30px;
+  top: -40px;
+  right: -5px;
 }
 .btn {
   background-color: DimGrey;
