@@ -15,3 +15,26 @@ body {
   background: url("https://s-media-cache-ak0.pinimg.com/originals/dc/ef/f6/dceff6eb8639f46f68f25c36125bdbeb.jpg");
   color: white;
 }
+
+.fa {
+  padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #e95950;
+  color: white;
+}
