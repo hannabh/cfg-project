@@ -1,16 +1,21 @@
 h1 {
-  font-family: 'Lato', bold;
-  text-align: center;
-  font-size: 60px;
-  font-style: oblique;
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 70px;
+  line-height: 100px;
   color: #232323;
   margin: 60px 0 0 0;
   text-align: center;
+  text-shadow: 2px 2px DimGrey;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 h2 {
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 20px;
   text-align: center;
-  color: #232323;
-  margin: 0px 0 70px 0;
+  color: DimGrey;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
 }
 body {
   background: url("https://i.imgur.com/fQ8DpBd.jpg");
@@ -25,13 +30,17 @@ img {
     margin-right: auto;
     width: 40%;
     position: relative;
-    top: -50px;
+    top: 50px ;
 }
 
 div {
   position: absolute;
   right: 10px;
   top: 10px;
+}
+
+#north {
+  color: black;
 }
 
 .fa {
@@ -64,14 +73,45 @@ div {
 .Buttons {
   text-align: center;
   position: relative;
-  top: -40px;
+  top: 40px;
   right: -5px;
 }
-.btn {
+
+#east {
   background-color: DimGrey;
-  border: 4px white;
+  position: absolute;
+  right: 490px;
+  top: -105px;
+  border: 20px black;
+  border-radius: 8px;
 }
 
+#north {
+  background-color: DimGrey;
+  position: absolute;
+  top: -225px;
+  right: 615px;
+  border: 20px black;
+  border-radius: 8px;
+}
+
+#south {
+  background-color: DimGrey;
+  position: absolute;
+  top: 15px;
+  right: 615px;
+  border: 20px black;
+  border-radius: 8px;
+}
+
+#west {
+  background-color: DimGrey;
+  position: absolute;
+  top: -105px;
+  right: 750px;
+  border: 20px black;
+  border-radius: 8px;
+}
 ul {
   text-align: center;
 }
