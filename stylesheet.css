@@ -13,7 +13,7 @@ h2 {
   font-size: 30px;
   line-height: 20px;
   text-align: center;
-  color: DimGrey;
+  color: rgba(10, 15, 15, 1);
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
 }
@@ -37,10 +37,6 @@ div {
   position: absolute;
   right: 10px;
   top: 10px;
-}
-
-#north {
-  color: black;
 }
 
 .fa {
@@ -76,7 +72,9 @@ div {
   top: 40px;
   right: -5px;
   size: 15px;
+  transition: transform .2s;
 }
+
 
 #east {
   background-color: DimGrey;
@@ -85,6 +83,12 @@ div {
   top: -105px;
   border: 20px black;
   border-radius: 8px;
+}
+
+#east:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 #north {
@@ -96,6 +100,12 @@ div {
   border-radius: 8px;
 }
 
+#north:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
 #south {
   background-color: DimGrey;
   position: absolute;
@@ -103,6 +113,11 @@ div {
   right: 615px;
   border: 20px black;
   border-radius: 8px;
+}
+#south:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
 #west {
@@ -112,6 +127,11 @@ div {
   right: 750px;
   border: 20px black;
   border-radius: 8px;
+}
+#west:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 ul {
   text-align: center;
