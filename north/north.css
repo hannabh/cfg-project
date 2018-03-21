@@ -1,12 +1,34 @@
-h1{
+h1 {
   text-align: center;
   margin-top: 70px;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-h3{
+h3 {
   text-align: center;
+}
+h5 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.d-block {
+  height: 400px;
+  width: auto;
+}
+img {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
