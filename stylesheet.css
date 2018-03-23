@@ -1,24 +1,27 @@
 h1 {
-  font-family: 'Lobster', Georgia, Times, serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 70px;
   line-height: 100px;
   color: #232323;
   margin: 60px 0 0 0;
   text-align: center;
-  text-shadow: 2px 2px DimGrey;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 50px;
+  border-bottom: black;
 }
 h2 {
-  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-family: 'Cedarville Cursive', cursive;
   font-size: 30px;
   line-height: 20px;
   text-align: center;
   color: rgba(10, 15, 15, 1);
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
 }
+
+
 body {
-  background: url("https://i.imgur.com/fQ8DpBd.jpg");
+  background: url("https://i.imgur.com/tMbVvGl.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -28,9 +31,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
     position: relative;
-    top: 50px ;
+    top: -50px ;
 }
 
 div {
@@ -66,23 +69,25 @@ div {
 }
 
 
-.Buttons {
-  text-align: center;
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   position: relative;
-  top: 40px;
-  right: -5px;
-  size: 15px;
-  transition: transform .2s;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 
 #east {
   background-color: DimGrey;
-  position: relative;
-  right: 490px;
-  top: -105px;
+  position: fixed;
   border: 20px black;
   border-radius: 8px;
+  left: 50%;
 }
 
 #east:hover {
@@ -93,9 +98,7 @@ div {
 
 #north {
   background-color: DimGrey;
-  position: relative;
-  top: -225px;
-  right: 615px;
+  position: fixed;
   border: 20px black;
   border-radius: 8px;
 }
@@ -108,9 +111,7 @@ div {
 
 #south {
   background-color: DimGrey;
-  position: relative;
-  top: 15px;
-  right: 615px;
+  position: fixed;
   border: 20px black;
   border-radius: 8px;
 }
@@ -122,9 +123,7 @@ div {
 
 #west {
   background-color: DimGrey;
-  position: relative;
-  top: -105px;
-  right: 750px;
+  position: fixed;
   border: 20px black;
   border-radius: 8px;
 }
