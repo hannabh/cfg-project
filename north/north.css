@@ -53,3 +53,41 @@ right: 10%;
     height: 12px;
     margin: 6px;
 }
+
+.fa {
+  text-align: center;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  padding: 0.35em 0.58em;
+}
+
+.fa-twitter {
+  background: #00aced;
+  color: white;
+  padding: 0.35em 0.41em;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+  color: white;
+  padding: 0.35em 0.43em;
+}
+
+#footer {
+  background-color: #e2e2e2;
+  text-align: center;
+  width: 100%;
+}
+
+#madeby {
+  font-size: 17px;
+}
