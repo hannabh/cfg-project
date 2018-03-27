@@ -44,14 +44,14 @@ img:hover {
 }
 
 .carousel-control-next{
-right: 10%;
+  right: 10%;
 }
 
 .carousel-indicators li {
-    border-radius: 12px;
-    width: 12px;
-    height: 12px;
-    margin: 6px;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  margin: 6px;
 }
 
 .fa {
