@@ -1,7 +1,14 @@
 h1 {
-  text-align: center;
-  margin-top: 70px;
-}
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 70px;
+    line-height: 100px;
+    color: #232323;
+    margin: 60px 0 0 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 50px;
+    border-bottom: black;
+  }
 
 h2 {
   text-align: center;
@@ -14,6 +21,9 @@ h5 {
   color: black;
   font-size: 30px;
   font-weight: bold;
+}
+body {
+    background: #D3D3D3;
 }
 p {
   font-size: 20px;
