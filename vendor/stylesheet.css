@@ -135,6 +135,6 @@ div {
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
-ul {
-  text-align: center;
+.navbar-nav {
+  text-align: left;
 }
